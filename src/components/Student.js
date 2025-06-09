@@ -11,9 +11,10 @@ export default function Student() {
     const paperStyle={padding:'50px 20px', width:600,margin:"20px auto"}
     const[name, setName]= React.useState('')
     const[email, setEmail]= React.useState('')
+    const[dob, setDateOfBirth]= React.useState('')
     const handleClick = (event) =>{
     event.preventDefault();
-    const student={name, email}
+    const student={name, email, dob}
     console.log(student)
     fetch("http://localhost:8080/api/version1/student/register",{
         method:"POST",
@@ -39,6 +40,8 @@ export default function Student() {
                 value={name}onChange={(event)=>setName(event.target.value)}/>
                 <TextField id="outlined-basic" label="Student Email" variant="outlined" fullWidth
                 value={email}onChange={(event)=> setEmail(event.target.value)}/>
+                <TextField id="outlined-basic" label="Student Date Of Birth" variant="outlined" fullWidth
+                value={dob}onChange={(event)=> setDateOfBirth(event.target.value)}/>
             </Box>
         </Paper>
               <Button variant="contained" onClick={handleClick}>Submit</Button>
