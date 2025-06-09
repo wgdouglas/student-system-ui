@@ -1,14 +1,14 @@
 # Student Syetem UI
 
 ## Overview
-    - The application is broken into a front end written in React and a BFF written in Spring.
-    - This UI application is used for class admins to perform the SS(StudentSorting) process
-    - This application is used to handle adding, retrieving, and observing student informationinto and from our Database
+    The application is broken into a front end written in React and a BFF written in Spring.
+    This UI application is used for class admins to perform the SS(StudentSorting) process
+    This application is used to handle adding, retrieving, and observing student informationinto and from our Database
 ## Viewing the student index
-    - An admin is able to see the student index.
+    An admin is able to see the student index.
     
 ## Adding a student
-    - In order to add a student, the admin will need to enter a name, email, and date of birth. Then the application will allow each of the students into the student index.  
+    In order to add a student, the admin will need to enter a name, email, and date of birth. Then the application will allow each of the students into the student index.  
 
 
 ---
