@@ -68,3 +68,18 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Project Referecnes 
+- [React component library/Bootstrapping-stylings](https://mui.com/material-ui/getting-started/)
+    - Material is an adaptable system of guidelines, components, and tools that support the best practices of user interface design. Backed by open-source code, Material streamlines collaboration between designers and developers, and helps teams quickly build beautiful products.
+
+- You'll start this set up with installation of the default command and then install icons as well
+    - default instillation:
+    ```shell
+    npm install @mui/material @emotion/react @emotion/styled
+    ```
+
+    - icon instillation:
+    ```shell
+    npm install @mui/icons-material
+    ```
