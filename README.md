@@ -1,4 +1,4 @@
-# Student Syetem UI
+# student-system-ui
 
 ## Overview
 The application is broken into a front end written in React and a BFF written in Spring.
