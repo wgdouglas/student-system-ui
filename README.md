@@ -3,7 +3,7 @@
 ## Overview
 The application is broken into a front end written in React and a BFF written in Spring.
 This UI application is used for class admins to perform the SS(StudentSorting) process
-This application is used to handle adding, retrieving, and observing student informationinto and from our Database
+This application is used to handle adding, retrieving, and observing student information into and from our Database
 ## Viewing the student index
 An admin is able to see the student index.
     
